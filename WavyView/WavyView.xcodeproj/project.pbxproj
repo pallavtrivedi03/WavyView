@@ -11,7 +11,6 @@
 		8C71C7D222C4C71900762FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7D122C4C71900762FAC /* AppDelegate.swift */; };
 		8C71C7D422C4C71900762FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7D322C4C71900762FAC /* ViewController.swift */; };
 		8C71C7D722C4C71900762FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C71C7D522C4C71900762FAC /* Main.storyboard */; };
-		8C71C7D922C4C71A00762FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C71C7D822C4C71A00762FAC /* Assets.xcassets */; };
 		8C71C7DC22C4C71A00762FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C71C7DA22C4C71A00762FAC /* LaunchScreen.storyboard */; };
 		8C71C7E322C4C7BD00762FAC /* WavyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7E122C4C7BD00762FAC /* WavyView.swift */; };
 		8C71C7E422C4C7BD00762FAC /* WavyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7E222C4C7BD00762FAC /* WavyLayer.swift */; };
@@ -26,7 +25,6 @@
 		8C71C7D122C4C71900762FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C71C7D322C4C71900762FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C71C7D622C4C71900762FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C71C7D822C4C71A00762FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C71C7DB22C4C71A00762FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C71C7DD22C4C71A00762FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C71C7E122C4C7BD00762FAC /* WavyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavyView.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				8C71C7D322C4C71900762FAC /* ViewController.swift */,
 				8C71C7E722C4C94A00762FAC /* WavyView.framework */,
 				8C71C7D522C4C71900762FAC /* Main.storyboard */,
-				8C71C7D822C4C71A00762FAC /* Assets.xcassets */,
 				8C71C7DA22C4C71A00762FAC /* LaunchScreen.storyboard */,
 				8C71C7DD22C4C71A00762FAC /* Info.plist */,
 			);
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C71C7DC22C4C71A00762FAC /* LaunchScreen.storyboard in Resources */,
-				8C71C7D922C4C71A00762FAC /* Assets.xcassets in Resources */,
 				8C71C7D722C4C71900762FAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
