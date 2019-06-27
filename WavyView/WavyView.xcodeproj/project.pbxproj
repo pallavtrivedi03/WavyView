@@ -16,20 +16,12 @@
 		8C71C7C022C4C6A100762FAC /* WavyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WavyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C71C7C322C4C6A100762FAC /* WavyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavyView.h; sourceTree = "<group>"; };
 		8C71C7C422C4C6A100762FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C71C7CF22C4C71900762FAC /* WavyViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavyViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C71C7E122C4C7BD00762FAC /* WavyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavyView.swift; sourceTree = "<group>"; };
 		8C71C7E222C4C7BD00762FAC /* WavyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavyLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C71C7BD22C4C6A100762FAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C71C7CC22C4C71900762FAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				8C71C7C022C4C6A100762FAC /* WavyView.framework */,
-				8C71C7CF22C4C71900762FAC /* WavyViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,23 +90,6 @@
 			productReference = 8C71C7C022C4C6A100762FAC /* WavyView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8C71C7CE22C4C71900762FAC /* WavyViewExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C71C7DE22C4C71A00762FAC /* Build configuration list for PBXNativeTarget "WavyViewExample" */;
-			buildPhases = (
-				8C71C7CB22C4C71900762FAC /* Sources */,
-				8C71C7CC22C4C71900762FAC /* Frameworks */,
-				8C71C7CD22C4C71900762FAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WavyViewExample;
-			productName = WavyViewExample;
-			productReference = 8C71C7CF22C4C71900762FAC /* WavyViewExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -129,9 +103,6 @@
 					8C71C7BF22C4C6A100762FAC = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
-					};
-					8C71C7CE22C4C71900762FAC = {
-						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -149,20 +120,12 @@
 			projectRoot = "";
 			targets = (
 				8C71C7BF22C4C6A100762FAC /* WavyView */,
-				8C71C7CE22C4C71900762FAC /* WavyViewExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8C71C7BE22C4C6A100762FAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C71C7CD22C4C71900762FAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,13 +141,6 @@
 			files = (
 				8C71C7E422C4C7BD00762FAC /* WavyLayer.swift in Sources */,
 				8C71C7E322C4C7BD00762FAC /* WavyView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C71C7CB22C4C71900762FAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,48 +320,6 @@
 			};
 			name = Release;
 		};
-		8C71C7DF22C4C71A00762FAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WavyViewExample",
-				);
-				INFOPLIST_FILE = WavyViewExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.develop.WavyViewExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8C71C7E022C4C71A00762FAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WavyViewExample",
-				);
-				INFOPLIST_FILE = WavyViewExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.develop.WavyViewExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,15 +337,6 @@
 			buildConfigurations = (
 				8C71C7C922C4C6A100762FAC /* Debug */,
 				8C71C7CA22C4C6A100762FAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C71C7DE22C4C71A00762FAC /* Build configuration list for PBXNativeTarget "WavyViewExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C71C7DF22C4C71A00762FAC /* Debug */,
-				8C71C7E022C4C71A00762FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
