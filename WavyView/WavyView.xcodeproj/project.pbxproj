@@ -8,13 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8C71C7C522C4C6A100762FAC /* WavyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C71C7C322C4C6A100762FAC /* WavyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C71C7D222C4C71900762FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7D122C4C71900762FAC /* AppDelegate.swift */; };
-		8C71C7D422C4C71900762FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7D322C4C71900762FAC /* ViewController.swift */; };
-		8C71C7D722C4C71900762FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C71C7D522C4C71900762FAC /* Main.storyboard */; };
-		8C71C7DC22C4C71A00762FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C71C7DA22C4C71A00762FAC /* LaunchScreen.storyboard */; };
 		8C71C7E322C4C7BD00762FAC /* WavyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7E122C4C7BD00762FAC /* WavyView.swift */; };
 		8C71C7E422C4C7BD00762FAC /* WavyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71C7E222C4C7BD00762FAC /* WavyLayer.swift */; };
-		8C71C7E822C4C94A00762FAC /* WavyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C71C7E722C4C94A00762FAC /* WavyView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +17,8 @@
 		8C71C7C322C4C6A100762FAC /* WavyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavyView.h; sourceTree = "<group>"; };
 		8C71C7C422C4C6A100762FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C71C7CF22C4C71900762FAC /* WavyViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavyViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C71C7D122C4C71900762FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C71C7D322C4C71900762FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C71C7D622C4C71900762FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C71C7DB22C4C71A00762FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C71C7DD22C4C71A00762FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C71C7E122C4C7BD00762FAC /* WavyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavyView.swift; sourceTree = "<group>"; };
 		8C71C7E222C4C7BD00762FAC /* WavyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavyLayer.swift; sourceTree = "<group>"; };
-		8C71C7E722C4C94A00762FAC /* WavyView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WavyView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C71C7E822C4C94A00762FAC /* WavyView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				8C71C7C222C4C6A100762FAC /* WavyView */,
-				8C71C7D022C4C71900762FAC /* WavyViewExample */,
 				8C71C7C122C4C6A100762FAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,19 +65,6 @@
 				8C71C7C422C4C6A100762FAC /* Info.plist */,
 			);
 			path = WavyView;
-			sourceTree = "<group>";
-		};
-		8C71C7D022C4C71900762FAC /* WavyViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				8C71C7D122C4C71900762FAC /* AppDelegate.swift */,
-				8C71C7D322C4C71900762FAC /* ViewController.swift */,
-				8C71C7E722C4C94A00762FAC /* WavyView.framework */,
-				8C71C7D522C4C71900762FAC /* Main.storyboard */,
-				8C71C7DA22C4C71A00762FAC /* LaunchScreen.storyboard */,
-				8C71C7DD22C4C71A00762FAC /* Info.plist */,
-			);
-			path = WavyViewExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C71C7DC22C4C71A00762FAC /* LaunchScreen.storyboard in Resources */,
-				8C71C7D722C4C71900762FAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,31 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C71C7D422C4C71900762FAC /* ViewController.swift in Sources */,
-				8C71C7D222C4C71900762FAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8C71C7D522C4C71900762FAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C71C7D622C4C71900762FAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8C71C7DA22C4C71A00762FAC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C71C7DB22C4C71A00762FAC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8C71C7C622C4C6A100762FAC /* Debug */ = {
